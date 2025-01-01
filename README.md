@@ -2,9 +2,9 @@
 
 This project implements a simulation of optimization algorithms on a colored checkboard problem. Two algorithms are used:
 
-  1.Hill Climbing ⚡
+  1. Hill Climbing ⚡
  
-  2.Genetic Algorithm 🧬
+  2. Genetic Algorithm 🧬
 
 The goal is to reduce conflicts on a checkboard where adjacent cells of the same color are considered conflicts. The project demonstrates these algorithms by outputting their results to a file.
 
