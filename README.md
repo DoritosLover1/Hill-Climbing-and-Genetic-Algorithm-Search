@@ -41,15 +41,15 @@ The goal is to reduce conflicts on a checkboard where adjacent cells of the same
 ### Compilation
 
 Use the following command to compile the project:
-
+```
 g++ -std=c++17 main.cpp Checkboard.cpp -o checkboard
-
+```
 ### Execution
 
 Run the compiled program:
-
+```
 ./checkboard
-
+```
 ### Output
 
 The results will be saved to assignment_2-output.txt. Each execution will append results to the file, so you can compare multiple runs.
@@ -97,7 +97,7 @@ The following parameters can be modified in main.cpp:
 ## Example Output 🗒
 
 An example output in **assignment_2-output.txt**:
-
+```
 Hill Climbing Algorithm
 
 Initial State:
@@ -113,7 +113,7 @@ Genetic Algorithm with Population size = 10, Generations = 100
 Genetic Algorithm Solution (Optimal):
 0 1 2 3 1 2 3 0 1 2
 ...
-
+```
 ## Limitations ⚠
 
   * Hill Climbing: May get stuck in local minima.
